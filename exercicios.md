@@ -23,7 +23,7 @@
 - Dockerizar as aplicações criadas pelos alunos
 - Exemplos com docker compose
 
-# 21/05  - Jenkins - OK
+# 21/05  - Jenkins - OK (`/jenkins/shell`)
 
 - Subir instancia de jenkins manualmente
 - Automatizar atividades com shell script (gabarito no repo)

@@ -1,6 +1,6 @@
 - Breve revisão de shell e shell script
-  - Navegando no sistema de arquivos + Exercício (criar/remover arquivos e diretórios)
   - FHS - File Hierarchy Standard
+  - Navegando no sistema de arquivos + Exercício (criar/remover arquivos e diretórios)
   - Variáveis de ambiente
     - PATH
   - O comando `man`

@@ -1,3 +1,5 @@
+Link para slides: https://docs.google.com/presentation/d/1RUZOoErM3fdhxEhkOqv0WaUGUuZ0ojflI03Hvhnynts/edit#slide=id.g3981e96c6f_1_71
+
 - Breve revisão de shell e shell script
   - FHS - File Hierarchy Standard
   - Navegando no sistema de arquivos + Exercício (criar/remover arquivos e diretórios)

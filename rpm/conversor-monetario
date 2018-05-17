@@ -1,0 +1,7 @@
+#!/bin/bash
+
+M_SRC=$1
+M_DEST=$2
+M_VALUE=$3
+M_RATE=`curl "https://exchangeratesapi.io/api/latest?base=$M_SRC&symbols=$M_DEST" 2>/dev/null  | jq ".rates.$M_DEST"`
+python3 -c "print($M_RATE*$M_VALUE)"

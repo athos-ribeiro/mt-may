@@ -1,0 +1,4 @@
+FROM fedora:28
+RUN dnf install -y python-pika python
+COPY receive.py /
+ENTRYPOINT ["/receive.py"]

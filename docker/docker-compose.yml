@@ -1,0 +1,39 @@
+version: '3'
+services:
+  sendera:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.send
+    links:
+      - rabbitmq
+    depends_on:
+      - receiver
+    environment:
+      - AMPQ_ADDRESS=amqp://rabbitmq:5672
+      - MTECH_MSG=hello
+  senderb:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.send
+    links:
+      - rabbitmq
+    depends_on:
+      - receiver
+    environment:
+      - AMPQ_ADDRESS=amqp://rabbitmq:5672
+      - MTECH_MSG=world
+  receiver:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.receive
+    links:
+      - rabbitmq
+    depends_on:
+      - rabbitmq
+    environment:
+      - AMPQ_ADDRESS=amqp://rabbitmq:5672
+      - PYTHONUNBUFFERED=0
+  rabbitmq:
+    image: rabbitmq
+    ports:
+      - 5672

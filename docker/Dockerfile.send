@@ -1,0 +1,4 @@
+FROM fedora:28
+RUN dnf install -y librabbitmq-tools
+COPY send.sh /
+ENTRYPOINT ["/send.sh"]

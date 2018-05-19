@@ -129,34 +129,45 @@
   - Kubernetes
   - Openshift
 
-- Sexta
-  - Imersão Cubo
-  - Agile e DevOps em StartUps
-
 ## Módulo VIII - Integração e Entrega Contínua
 
-- Segunda
+- Sexta
   - Breve introdução a métodos ágeis
   - O que é integração contínua?
   - Entrega contínua
   - Introdução DevOps
   - Ferramentas de integração contínua
   - Testes, Análise estática e SecDevOps
-  - Mergulhando no Jenkins (subir Jenkins com shell script)
 
-- Terça
+####################
+####################
+####################
+####################
+
+- Segunda - Infraestrutura como código
   - A importância da infraestrutura como código
     - REPLICABILIDADE (vários ambientes = testes, homologação, produção), vários servidores
+    - Idempotência
     - vantagens
     - microservices
+  - Mergulhando no Jenkins (subir Jenkins com shell script)
   - Ferramentas de Automação e gestão de configuração (salt, puppet, ansible, chef) e suas diferenças
   - Mergulhando em Puppet
   - Subindo uma instância de Jenkins com puppet
 
+- Terça
+  - Teoria de microservices (meio turno)
+      http://microxchg.io/2015/slides/01_09_PrinciplesOfMicroservices-Microxchg.pdf
+      https://martinfowler.com/microservices/
+  - DDD (teoria)
+      https://www.infoq.com/minibooks/domain-driven-design-quickly
+  - DDD (Atividade sem código) => quebrar jogo da velha
+  - DDD (Atividade com código) => implementar
+
 - Quarta
-  - Laboratório: Puppet + Gitlab + Jenkins = Entrega contínua
-  - Gitlab CI
-  - Travis CI
+  - Eventos (teoria)
+  - Exercício / demo com docker (já preparado)
+  - Exercício de incluir eventos no exercício do dia anterior
 
 - Quinta
   - Estruturação de log
@@ -165,11 +176,15 @@
   - Centralização de logs
   - rsyslog
   - Graylog
+  - Imersão em segurança de aplicativos e webapps em nuvem
+  - Observability
+  - Exercício: implementar na aplicação
 
 - Sexta
-  - Imersão em segurança de aplicativos e webapps em nuvem
-  - sessão flexível
-  
+  - Laboratório: Puppet + Gitlab + Jenkins = Entrega contínua
+  - Gitlab CI
+  - Travis CI
+
 # Links para montagem de apostilas:
 
 - shell e shell scripting
@@ -194,3 +209,4 @@
 - Logs
   - https://docs.microsoft.com/pt-br/azure/architecture/microservices/logging-monitoring
   - https://cloud.spring.io/spring-cloud-sleuth/
+

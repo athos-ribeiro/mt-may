@@ -68,8 +68,9 @@ Vagrant.configure("2") do |config|
    config.vm.provision "shell", inline: <<-SHELL
      dnf install puppet -y
    SHELL
-  #config.vm.provision :puppet do |puppet|
-  #    puppet.manifests_path = "puppet/manifests"
-  #    #puppet.module_path = "manifests/modules"
-  #end
+  config.vm.provision :puppet do |puppet|
+      puppet.manifests_path = "puppet/manifests"
+      puppet.module_path = "puppet/manifests/modules"
+      #puppet.manifests_file = "puppet/manifests/default.pp"
+  end
 end

@@ -1,6 +1,6 @@
 version: '3'
 services:
-  sendera:
+  sender:
     build:
       context: .
       dockerfile: ./Dockerfile.send
@@ -11,17 +11,6 @@ services:
     environment:
       - AMPQ_ADDRESS=amqp://rabbitmq:5672
       - MTECH_MSG=hello
-  senderb:
-    build:
-      context: .
-      dockerfile: ./Dockerfile.send
-    links:
-      - rabbitmq
-    depends_on:
-      - receiver
-    environment:
-      - AMPQ_ADDRESS=amqp://rabbitmq:5672
-      - MTECH_MSG=world
   receiver:
     build:
       context: .

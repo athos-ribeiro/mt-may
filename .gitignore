@@ -1,1 +1,4 @@
 *.pdf
+*/*/.vagrant
+*/.vagrant
+*.swp

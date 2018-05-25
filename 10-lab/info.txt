@@ -3,3 +3,7 @@ http://159.65.42.49:8080/
 admin
 123colab4
 kanashiro@debian.org
+
+Jenkins ssh public key:
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDR5bU1Ck7k2l97DPQdO4eIVHSLwBwTzNJIqmNGS3uvOPrMn4q0BZgaNlMZrWGJYMS/10D56FR5LggDBJ19ZfvE5jdcd1cpdw9ScRAHZvH5PvZiirKGQS7EwjYm7OJWak/qxlQx8cCvlwm/PdDv7Fc6R+HYdqr9n2lt3MULGN4+bbRwAyku0WkVRcaUzMoE66SENcEJUnT9q/g/T1n8lou/tHEGjV6ugoPSgqaMp4lRp3E9gMluwE6REFk/khNd+1tfkbgC8ZfurZyqJlpD8TbyY/7ozTpBkC8pnSo9z2UM8TB1iS8ooTeDQi4UaA4F5WL/h7wHAHkxp7hb5GoCtj8l jenkins@production-g0

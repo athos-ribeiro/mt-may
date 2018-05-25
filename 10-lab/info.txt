@@ -1,0 +1,5 @@
+http://159.65.42.49:8080/
+
+admin
+123colab4
+kanashiro@debian.org
